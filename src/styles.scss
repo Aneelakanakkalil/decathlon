@@ -1,0 +1,36 @@
+.App {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+
+  header {
+    text-align: center;
+  }
+
+  .post {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    
+    textarea {
+      width: 100%;
+    }
+
+    .edit-body {
+      height: 75px;
+    }
+
+    > .footer {
+      button {
+        margin-right: 10px;
+        background-color: cadetblue;
+        border: none;
+        color: aliceblue;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
